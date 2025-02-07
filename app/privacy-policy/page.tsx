@@ -1,4 +1,3 @@
-// filepath: /Users/one/data/dev/eselco-website/src/app/privacy-policy/page.tsx
 export default function PrivacyPolicy() {
   return (
     <div>
