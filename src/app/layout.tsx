@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import { Analytics } from '@vercel/analytics/next';
 import Link from "next/link";
 import "./globals.css";
 
@@ -43,6 +44,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
           Created using Next.js, React.js, TypeScript, and Tailwind CSS. Repository hosted on <a href="https://github.com/yourusername/yourrepo" target="_blank" rel="noopener noreferrer" className="underline">GitHub</a>. Content managed with <a href="https://obsidian.md/" target="_blank" rel="noopener noreferrer" className="underline">Obsidian</a>.
         </p>
       </footer>
+      <Analytics />
       </body>
     </html>
   );
