@@ -1,5 +1,5 @@
 import { getHomepageContent } from '../lib/markdown';
-import React from 'react';
+import React, {JSX} from 'react';
 import type { Metadata } from 'next';
 import PageWrapper from '../components/PageWrapper';
 
@@ -42,10 +42,10 @@ export default async function Home(): Promise<JSX.Element> {
         )}
         {!eventsSection && (<p>Error loading Events Section content.</p>)}
 
-        {eventsSection && (
+        {philosophySection && (
           <div className='max-w-[786px] mx-auto' dangerouslySetInnerHTML={{ __html: philosophySection.content }} />
         )}
-        {!eventsSection && (<p>Error loading Events Section content.</p>)}
+        {!philosophySection && (<p>Error loading Events Section content.</p>)}
 
       </div>
     </PageWrapper>
