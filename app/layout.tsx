@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import { Analytics } from '@vercel/analytics/next';
 import Link from "next/link";
 import "./globals.css";
+import Footer from "@/components/Footer";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -39,11 +40,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
         <main className="pt-32">
           {children}
         </main>
-        <footer className="container mx-auto p-4 text-center text-sm text-gray-500">
-        <p>
-          Created using Next.js, React.js, TypeScript, and Tailwind CSS. Repository hosted on <a href="https://github.com/opp-dev/eselco-website" target="_blank" rel="noopener noreferrer" className="underline">GitHub</a>. Content managed with <a href="https://obsidian.md/" target="_blank" rel="noopener noreferrer" className="underline">Obsidian</a>.
-        </p>
-      </footer>
+        <Footer />
       <Analytics />
       </body>
     </html>

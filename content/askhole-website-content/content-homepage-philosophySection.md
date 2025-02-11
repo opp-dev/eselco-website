@@ -6,4 +6,3 @@ This worked. Now is the time to get the the next level. I am editing this MD fil
 Does this also work?
 
 # How about this?
-Hello Erik how are you.
