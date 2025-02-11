@@ -1,6 +1,6 @@
 import { getHomepageContent } from '../lib/markdown';
 import React, {JSX} from 'react';
-import type { Metadata } from 'next';
+// import type { Metadata } from 'next';
 import PageWrapper from '../components/PageWrapper';
 
 interface HomepageContent {
