@@ -3,11 +3,6 @@ import React, {JSX} from 'react';
 import type { Metadata } from 'next';
 import PageWrapper from '../components/PageWrapper';
 
-export const metadata: Metadata = {
-  title: 'Home',
-  description: 'Welcome to my website', 
-};
-
 interface HomepageContent {
   content: string;
 }

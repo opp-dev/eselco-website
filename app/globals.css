@@ -18,6 +18,11 @@
   h1 {
     @apply text-[40px] font-semibold;
   }
+  h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
   p{
     @apply text-[16px] font-normal leading-[24px];
   }

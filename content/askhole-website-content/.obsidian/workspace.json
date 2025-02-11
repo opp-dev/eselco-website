@@ -43,7 +43,7 @@
               "state": {
                 "file": "content-homepage-philosophySection.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
               "title": "content-homepage-philosophySection"
@@ -199,10 +199,10 @@
   },
   "active": "9d3ec16d6027e1ee",
   "lastOpenFiles": [
-    "360A8915.jpg",
     "content-homepage-eventsSection.md",
-    "content-homepage-philosophySection.md",
     "content-homepage-welcomeSection.md",
+    "content-homepage-philosophySection.md",
+    "360A8915.jpg",
     "Welcome.md"
   ]
 }
