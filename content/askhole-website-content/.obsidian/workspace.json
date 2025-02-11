@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content-homepage-welcomeSection.md",
+                "file": "content-homepage-eventsSection.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "content-homepage-welcomeSection"
+              "title": "content-homepage-eventsSection"
             }
           }
         ],
@@ -200,8 +200,8 @@
   "active": "9d3ec16d6027e1ee",
   "lastOpenFiles": [
     "content-homepage-philosophySection.md",
-    "content-homepage-eventsSection.md",
     "content-homepage-welcomeSection.md",
+    "content-homepage-eventsSection.md",
     "360A8915.jpg",
     "Welcome.md"
   ]

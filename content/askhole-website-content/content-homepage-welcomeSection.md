@@ -7,7 +7,7 @@ The **print dialog box** is the classic example of progressive disclosure. Whe
 
 The initial print dialog box typically contains one or more buttons for advanced options. These buttons lead to secondary dialogs that let users specify rarely used settings, such as scaling and printing the pages in reverse sequence. If the user clicks the advanced options button, the system discloses the additional features.
 
-## Benefits of Progressive Disclosure
+### Benefits of Progressive Disclosure
 
 In a system designed with progressive disclosure, the very fact that something appears on the initial display tells users that it's **important**.
 
