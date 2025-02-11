@@ -16,8 +16,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Esel und Esel",
-  description: "I ",
+  title: "Askhole",
+  description: "Asking all the questions, making all the products.",
 };
 
 interface RootLayoutProps {
