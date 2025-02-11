@@ -24,7 +24,7 @@
     margin-bottom: 1rem;
   }
   p{
-    @apply text-[16px] font-normal leading-[24px];
+    @apply text-[16px] font-normal leading-[24px] pb-4;
   }
 }
 
