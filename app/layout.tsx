@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
-import { Analytics } from '@vercel/analytics/next';
-import Link from "next/link";
+import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 import Footer from "@/components/Footer";
+import Header from "@/components/Header";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -27,21 +27,13 @@ interface RootLayoutProps {
 export default function RootLayout({ children }: RootLayoutProps) {
   return (
     <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable} antialiased flex flex-col min-h-screen`}>
-        <header className="fixed w-full z-10 top-4"> 
-          <nav className="bg-[#FAFAFA50] backdrop-blur-md container max-w-fit mx-auto px-8 py-3 flex justify-center border border-gray-300 border-2 rounded-full drop-shadow-md">
-            <ul className="flex space-x-8"> 
-              <li><Link href="/">Home</Link></li>
-              <li><Link href="/privacy-policy">Privacy Policy</Link></li>
-              <li><Link href="/imprint">Imprint</Link></li>
-            </ul>
-          </nav>
-        </header>
-        <main className="pt-32 flex-grow">
-          {children}
-        </main>
+      <body
+        className={`${geistSans.variable} ${geistMono.variable} antialiased flex flex-col min-h-screen`}
+      >
+        <Header />
+        <main className="pt-32 flex-grow">{children}</main>
         <Footer />
-      <Analytics />
+        <Analytics />
       </body>
     </html>
   );
